@@ -1,0 +1,163 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+
+}
+.menu-bar{
+	background-color: black;
+
+}
+.nav-link{
+	font-size: 16px;
+	margin: 3px;
+	color: #fff!important;
+	font-weight: 500;
+}
+.navbar-nav{
+	text-align: center;
+	margin-right: 20px;
+}
+.menu-bar .navbar-toggler{
+	padding-right: 20px;
+	outline: none!important;
+	border: none!important;
+	color: #fff!important;
+
+}
+.navbar .fa{
+	color: #fff!important;
+	font-size: 20px;
+}
+.nav-link:hover{
+	font-weight: 600;
+	border-bottom: 1px solid white;
+}
+.navbar-brand{
+	font-size: 30px;
+	color: #fff!important;
+	font-family: Lucida Handwriting;
+}
+.container{
+	color: black;
+	
+	
+
+
+}
+
+/*/*navbar */
+.navbar {
+	display: flex;
+	justify-content: center;
+	background-color: light;
+}
+
+.navbar ul{
+	display: flex;
+	list-style:none;
+	margin: 20px 0px;
+}
+
+.navbar ul li{
+
+	font-family: century;
+	font-size: 1.1rem;
+	font-weight: bold;
+	color: red;
+}
+
+.navbar ul li a{
+	text-decoration: none;
+	color: purple;
+	padding: 8px 25px;
+	transition: all .5s ease;
+}
+.navbar ul li a:hover{
+	background-color: purple;
+	color: black;
+	box-shadow: 0 0 10px white;
+}*/
+
+
+
+/*home section*/
+#home{
+	display: flex;
+	flex-direction: column;
+	background-color: rgba(0, 0, 0, 0.5);
+	height: 840px;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+
+#home::before{
+	content:"";
+	position: absolute;
+	top: 0;
+	right: 0;
+	background : url('images/im2.jpg') no-repeat center center/cover;
+	height: 900px;
+	width: 100%;
+	z-index: -1;
+	opacity: .9;
+}
+.main{
+	display: flex;
+	flex-direction: column;
+	/*border: 1px solid white;*/
+	align-items: center;
+	position: absolute;
+	top: 60%;
+	right: 2%;
+}
+.headings{
+	font-family: georgia;
+	font-size: 2rem;
+	text-align: center;
+	margin: 40px 0px;
+	font-weight: 500;
+}
+
+#p{
+	font-size: 2rem;
+	font-family: sofia;
+	
+}
+#name{
+	font-family: Lucida Handwriting;
+}
+.about{
+	font-size: 5em;
+	font-family: georgia;
+	text-align: center;
+}
+.p-3{
+	font-family: lora;
+	font-size: 20px;
+	word-spacing: normal;
+}
+#comp{
+	font-size: 20px;
+	justify-content: center;
+}
+
+.img-fluid{
+	border-radius: 20px;
+	height: 50vh;
+}
+	
+}
+/*ABOUT*/
+*
+.overlay{
+	color: #fff;
+	position: absolute;
+	z-index: :12;
+	top: 50%;
+	left: 0;
+	width: 100%;
+	text-align: center;
+}
